@@ -4,6 +4,6 @@ let package = Package(
     name: "SwiftCron-Example",
     targets: [],
     dependencies: [
-    .Package(url: "git@github.com:rymcol/SwiftCron.git", majorVersion: 0)
+    .Package(url: "https://github.com/rymcol/SwiftCron.git", majorVersion: 0)
     ]
 )
