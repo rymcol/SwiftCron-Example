@@ -9,9 +9,6 @@
 import Foundation
 import SwiftCron
 
-var shouldKeepRunning = true        // change this `false` to stop the application from running
-let theRL = RunLoop.current         // Need a reference to the current run loop
-
 // Welcome to Cron!
 // If you add frequency: X to the intializer here, cron will attempt to run your jobs every X seconds
 // If you do not add a frequency, it defaults to 60 (every minute)
@@ -48,6 +45,3 @@ cron.add(jobs)
 
 //Start Cron So the Jobs Run
 cron.start()
-
-//Start and Keep Running the Run Loop
-while shouldKeepRunning && theRL.run(mode: .defaultRunLoopMode, before: .distantFuture) {  }
