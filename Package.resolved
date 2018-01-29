@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "PerfectThread",
+        "repositoryURL": "https://github.com/PerfectlySoft/Perfect-Thread.git",
+        "state": {
+          "branch": null,
+          "revision": "1846390a47bfe0c5263bb70ba318b2bbe751ac95",
+          "version": "3.0.2"
+        }
+      },
+      {
+        "package": "SwiftCron",
+        "repositoryURL": "https://github.com/rymcol/SwiftCron.git",
+        "state": {
+          "branch": null,
+          "revision": "5efa3b2a52274fdb670d9ac739c9ee3b3a8c1618",
+          "version": "0.2.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
